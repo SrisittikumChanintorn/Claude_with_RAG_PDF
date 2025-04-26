@@ -6,7 +6,7 @@
 
 ## RAG: Enhancing LLMs with External Knowledge
 
-This demonstration showcases how to implement **Retrieval-Augmented Generation (RAG)** with Anthropic's Claude model using pharmaceutical data as an example domain. The technique demonstrates how to enhance LLM capabilities by integrating external knowledge sources with the model's inherent abilities.
+This demonstration showcases how to implement **Retrieval-Augmented Generation (RAG)** with Anthropic's Claude model using Medicine documentation as an example domain. The technique demonstrates how to enhance LLM capabilities by integrating external knowledge sources with the model's inherent abilities.
 
 ## What is RAG?
 
@@ -98,7 +98,7 @@ os.environ.setdefault(
 ## RAG Technical Process Flow
 
 1. **Document Ingestion**: 
-   * Source pharmaceutical data is loaded and processed
+   * Source Medicine documentation is loaded and processed
    * Text is extracted and split into semantic chunks
 
 2. **Knowledge Base Creation**:
@@ -138,4 +138,4 @@ This demonstration is licensed under the [MIT License](https://opensource.org/li
 
 ---
 
-**A technical demonstration of RAG implementation with Claude using pharmaceutical data.**
+**A technical demonstration of RAG implementation with Claude using Medicine documentation.**
