@@ -3,8 +3,6 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Python Version](https://img.shields.io/badge/Python-3.11.6-blue.svg)
 ![Langchain Version](https://img.shields.io/badge/Langchain-0.3.x-brightgreen.svg)
-![Anthropic Claude Version](https://img.shields.io/.../Anthropic%20Claude-3.5...)
-![OpenAI Embeddings](https://img.shields.io/.../OpenAI%20Embeddings-text...)
 
 ## RAG: Enhancing LLMs with External Knowledge
 
