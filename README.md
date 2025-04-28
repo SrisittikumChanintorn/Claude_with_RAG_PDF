@@ -60,40 +60,46 @@ This demonstration highlights several key advantages of RAG:
 4. **Source Grounding**: Anchors responses in specific reference materials
 5. **Thai Language Support**: Shows RAG's effectiveness with non-English content
 
-## Setup Requirements
+## Setup 🛠️
 
-### Dependencies
+1. Clone this project to your repository:
 
-```
-langchain_community==0.3.21    
-langchain_openai==0.3.12        
-langchain-anthropic==0.3.10    
-anthropic==0.49.0            
-pymupdf==1.25.5               
-chromadb==0.5.3            
-openai==1.68.2                 
-tiktoken==0.7.0                 
-pydantic==2.7.4                
-SQLAlchemy==2.0.40             
-PyYAML==6.0.0                  
-tenacity==9.1.2                
-requests==2.31.0                
-numpy==1.26.2
+2. Create Virtual Environment (optional but recommended)
+
+3. Activate Virtual Environment (venv) or Select Python Interpreture 📦 
+   
+```bash
+source venv/bin/activate  # On MacOS use this with CMD
+venv\Scripts\activate     # On Windows use this with CMD
 ```
 
-### API Keys
+4. Install dependencies ⬇️
+```bash
+pip install -r requirements.txt
+```
+
+5. Configure API key 🔑
 
 ```python
 # Required API keys
 os.environ.setdefault(
     "ANTHROPIC_API_KEY",
-    "YOUR_ANTHROPIC_API_KEY",
+    "YOUR_ANTHROPIC_API_KEY", # Replace with your API KEY from Anthropic
 )
 os.environ.setdefault(
     "OPENAI_API_KEY",
-    "YOUR_OPENAI_API_KEY",
+    "YOUR_OPENAI_API_KEY", # Replace with your API KEY from OpenAI
 )
 ```
+
+
+6. Run the analysis ▶️
+
+```bash
+python main.py
+```
+
+
 
 ## RAG Technical Process Flow
 
