@@ -81,15 +81,9 @@ pip install -r requirements.txt
 5. Configure API key 🔑
 
 ```python
-# Required API keys
-os.environ.setdefault(
-    "ANTHROPIC_API_KEY",
-    "YOUR_ANTHROPIC_API_KEY", # Replace with your API KEY from Anthropic
-)
-os.environ.setdefault(
-    "OPENAI_API_KEY",
-    "YOUR_OPENAI_API_KEY", # Replace with your API KEY from OpenAI
-)
+# Generate API KEY from Claude and OpenAI website and define as a variable.
+os.environ["ANTHROPIC_API_KEY"] =  "YOUR_API_KEYS"
+os.environ["OPENAI_API_KEY"] = "YOUR_API_KEYS"
 ```
 
 
